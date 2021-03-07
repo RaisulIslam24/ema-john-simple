@@ -4,8 +4,7 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import './Product.css';
 import { Link } from 'react-router-dom';
 
-const Product = (props) => {
-    const {product, handleAddProduct} = props;
+const Product = ({product, handleAddProduct}) => {
     const { img, name, seller, price, stock, key } = product;
     return (
         <div className="product">
