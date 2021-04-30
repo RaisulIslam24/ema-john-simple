@@ -6,7 +6,5 @@
 3. Users can order any product.
 4. Stripe payment system included.
 
-## Front-end Technology: 
+## Tools and Technology: 
 React.js, React-router, React-hook-form, Bootstrap
-## Back-end Technology:
-Node.js, Express.js, MongoDB
